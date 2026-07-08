@@ -112,21 +112,21 @@ const handleSignUp = (email, password, confirmPassword) => {
                     value={email}
                     onChangeText={setEmail}
                     keyboardType="email-address"
-                    style = {{borderWidth:2 , borderColor: "#595F67", borderRadius:10, width: 300, height: 40 , color: "#595F67"}}
+                    style = {{borderWidth:2 , borderColor: "#595F67", borderRadius:10, width: 200, height: 40 , color: "#595F67"}}
                     />
 
                     <TextInput placeholder = "    Password"
                     value={password}
                     onChangeText={setPassword}
                     secureTextEntry
-                    style = {{borderWidth:2 , borderColor: "#595F67", borderRadius:10, width: 300, height: 40 , color: "#595F67"}}
+                    style = {{borderWidth:2 , borderColor: "#595F67", borderRadius:10, width: 200, height: 40 , color: "#595F67"}}
                     />
 
                     <TextInput placeholder = "    Confirm Password"
                     value={confirmPassword}
                     onChangeText={setConfirmPassword}
                     secureTextEntry
-                    style = {{borderWidth:2 , borderColor: "#595F67", borderRadius:10, width: 300, height: 40 , color: "#595F67"}}
+                    style = {{borderWidth:2 , borderColor: "#595F67", borderRadius:10, width: 200, height: 40 , color: "#595F67"}}
                     />
 
                   </View>
@@ -136,7 +136,7 @@ const handleSignUp = (email, password, confirmPassword) => {
                    <Button
                    onPress={()=>{handleSignUp(email, password, confirmPassword)}}
                    title={"Create Account"}
-                   width = {300}/>
+                   width = {100}/>
 
 
                   
